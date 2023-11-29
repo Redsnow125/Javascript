@@ -1,4 +1,4 @@
-let num = 5
+let num = 600
 let arr = [0,1]
 
 for (i=1;i<num-1;i++){
