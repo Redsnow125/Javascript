@@ -1,16 +1,16 @@
 function numberCheck(arr){
     let largest = arr[0]
-    let secLargest = arr[0]
+    let secoundLargest = arr[0]
     for(i=0;i<arr.length;i++){
         if(largest<arr[i]){
-            secLargest = largest
+            secoundLargest = largest
             largest = arr[i]
         }
-        else if(arr[i]>secLargest && arr[i]<largest){
-            secLargest = arr[i]
+        else if(arr[i]>secoundLargest && arr[i]<largest){
+            secoundLargest = arr[i]
         }
     }
-    return console.log(secLargest)
+    return console.log(secoundLargest)
 }
 
 numberCheck([5,10,7,3])
